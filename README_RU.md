@@ -155,8 +155,10 @@ wal-runtime benchmark MODEL --hardware-cache CACHE --tokens 128
   [docs/BENCHMARKS.md](docs/BENCHMARKS.md).
 - Проверки coding, tool use, safety, multilingual и long context неполны.
 
-Полный путь исследования описан в
-[статье](docs/RESEARCH_ARTICLE_RU.md).
+Полный путь исследования описан в статьях на
+[русском](docs/RESEARCH_ARTICLE_RU.md),
+[казахском](docs/RESEARCH_ARTICLE_KK.md) и
+[английском](docs/RESEARCH_ARTICLE_EN.md) языках.
 
 ## Лицензия
 

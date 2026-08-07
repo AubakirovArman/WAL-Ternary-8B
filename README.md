@@ -164,8 +164,10 @@ docs/                      format, benchmarks, guides and article
 - IFEval remains numerically sensitive; see [benchmarks](docs/BENCHMARKS.md).
 - Coding, tool use, safety, multilingual and long-context testing is limited.
 
-The full history is in the [Russian research article](docs/RESEARCH_ARTICLE_RU.md)
-and [English technical paper](docs/RESEARCH_ARTICLE_EN.md).
+The full history is available in the
+[Russian research article](docs/RESEARCH_ARTICLE_RU.md),
+[Kazakh research article](docs/RESEARCH_ARTICLE_KK.md), and
+[English technical paper](docs/RESEARCH_ARTICLE_EN.md).
 
 ## License
 

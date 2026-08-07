@@ -155,7 +155,9 @@ wal-runtime benchmark MODEL --hardware-cache CACHE --tokens 128
 - Coding, tool use, safety, multilingual және long-context тесттері толық емес.
 
 Зерттеудің толық тарихы
-[орыс тіліндегі мақалада](docs/RESEARCH_ARTICLE_RU.md) берілген.
+[қазақ тіліндегі мақалада](docs/RESEARCH_ARTICLE_KK.md) берілген. Сонымен бірге
+[орысша](docs/RESEARCH_ARTICLE_RU.md) және
+[ағылшынша](docs/RESEARCH_ARTICLE_EN.md) нұсқалар бар.
 
 ## Лицензия
 

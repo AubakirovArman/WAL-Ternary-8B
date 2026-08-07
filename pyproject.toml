@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wal-tat"
+version = "0.2.0"
+description = "Direct-packed CPU/CUDA runtime for WAL-Ternary-8B"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+requires-python = ">=3.10"
+authors = [{name = "Arman Aubakirov"}]
+keywords = ["qwen3", "ternary", "low-bit", "quantization", "inference"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+dependencies = ["torch>=2.2"]
+
+[project.urls]
+Homepage = "https://huggingface.co/armanibadboy/WAL-Ternary-8B"
+Repository = "https://github.com/AubakirovArman/WAL-Ternary-8B"
+Documentation = "https://github.com/AubakirovArman/WAL-Ternary-8B/tree/main/docs"
+
+[project.scripts]
+wal-runtime = "wal_tat.runtime.cli:main"
+
+[project.optional-dependencies]
+runtime = [
+  "transformers>=4.51",
+  "accelerate>=1.6",
+  "huggingface-hub>=0.23",
+  "ninja>=1.11",
+]
+test = ["pytest>=8", "transformers>=4.51", "huggingface-hub>=0.23"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"wal_tat.runtime" = ["experiments/cuda/*.cu"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-ra"

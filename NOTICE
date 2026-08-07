@@ -1,0 +1,9 @@
+WAL-Ternary-8B
+Copyright 2026 Arman Aubakirov
+
+This project contains independently developed low-bit conversion and runtime
+code for a model derived from Qwen/Qwen3-8B. Qwen3-8B is Copyright Alibaba
+Cloud and is distributed under the Apache License 2.0.
+
+No Neutrino/Fermion Research tensors are contained in the model or runtime.
+The project is not affiliated with Alibaba/Qwen or Fermion Research.

@@ -1,0 +1,25 @@
+{
+  "schema": "wal-ternary-8b-publication-v1",
+  "release": "v0.2.0",
+  "date_utc": "2026-08-07",
+  "model": {
+    "huggingface": "armanibadboy/WAL-Ternary-8B",
+    "complete_bpw": 2.898417471517478,
+    "unique_parameters": 8190735360,
+    "body_matrices": 252,
+    "walb2_matrices": 213
+  },
+  "wheel": {
+    "file": "wal_tat-0.2.0-py3-none-any.whl",
+    "bytes": 109564,
+    "sha256": "a19e8d7994ad33e3b9a49fe0bf14030acb1d308d94f71168b951827ac22c298d"
+  },
+  "validation": {
+    "focused_tests": "6/6 PASS",
+    "isolated_cuda_wheel_smoke": "PASS",
+    "isolated_cpu_wheel_smoke": "PASS",
+    "cuda_first_16_tokens_exact": true,
+    "cpu_first_4_tokens_exact": true,
+    "persistent_dense_body": false
+  }
+}

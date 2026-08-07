@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use WAL-Ternary-8B or its direct-packed runtime, please cite this software."
+title: "WAL-Ternary-8B: a 2.898-BPW Qwen3-8B with direct-packed CPU/CUDA inference"
+type: software
+authors:
+  - family-names: Aubakirov
+    given-names: Arman
+version: 0.2.0
+date-released: 2026-08-07
+url: "https://github.com/AubakirovArman/WAL-Ternary-8B"
+repository-code: "https://github.com/AubakirovArman/WAL-Ternary-8B"
+keywords:
+  - ternary quantization
+  - low-bit inference
+  - Qwen3
+  - CUDA
+  - CPU inference
